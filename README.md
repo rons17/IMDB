@@ -78,6 +78,6 @@ https://api.themoviedb.org/3/movie/top_rated?api_key=4e44d9029b1270a757cddc766a1
 9) Popular page API
 https://api.themoviedb.org/3/movie/popular?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US
 
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
         
    
