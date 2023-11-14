@@ -1,5 +1,5 @@
 IMDB-Clone 
-I am on the way to create a Movie app, which will be a IMDB clone created on React App.
+->I am on the way to create a Movie app, which will be a IMDB clone created on React App.
 This React project will provide us the list of upcoming, popular & top rated movies. On clicking on any movie it will show us the detail page of the movie.
 This React app also have a caraousel at the top for displaying movies as hero banner.
 All the routes/pages are designed beautifully by using CSS attached to every javascript files.
@@ -27,20 +27,20 @@ Folders and files used
    --> index.html
 2) src
     1) Components
-     --> Header
+      1) Header
        -->header.css
        -->header.js
-     --> card
+      2) card
        -->card.css
        -->card.js
-     -->MovieList
+      3) MovieList
        -->movieList.css
        -->movieList.js
      2) pages
-      --> Home
+      1) Home
         -->home.js
         -->home.css
-      --> movieDetail
+      2) movieDetail
         -->movie.css
         -->movie.js
      3) App.css
@@ -48,7 +48,7 @@ Folders and files used
      5) index.css
      6) index.js
 
-Useful links used in building IMDB-clone
+#Useful links used in building IMDB-clone
 
 1) The MovieDB API
 https://developer.themoviedb.org/reference/intro/getting-started
