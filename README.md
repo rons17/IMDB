@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+## IMDB-Clone 
+I am on the way to create a Movie app, which will be a IMDB clone created on React App.
+This React project will provide us the list of upcoming, popular & top rated movies. On 
+clicking on any movie it will show us the detail page of the movie.
+This React app also have a caraousel at the top for displaying movies as hero banner.
+All the routes/pages are designed beautifully by using CSS attached to every javascript files.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Topics learned
+1) API(Application Programming Interface)
+2) React Usestate Hooks
+3) Components in React
+4) import packages and use in code
+5) Work with different routes
+6) UseEffect and callback functions
+7) useParams from react-router-dom
 
-## Available Scripts
+## Technologies used:
+1) HTML
+2) CSS
+3) Javascript
+4) ReactJs(Major)
+5) React Router Dom
+6) React Loading Skeleton 
+7) React Responsive Caraousel
 
-In the project directory, you can run:
+## Folders and files used 
+1) public
+   --> index.html
+2) src
+    1) Components
+      1) Header
+       -->header.css
+       -->header.js
+      2) card
+       -->card.css
+       -->card.js
+      3) MovieList
+       -->movieList.css
+       -->movieList.js
+     2) pages
+      1) Home
+        -->home.js
+        -->home.css
+      2) movieDetail
+        -->movie.css
+        -->movie.js
+     3) App.css
+     4) App.js
+     5) index.css
+     6) index.js
 
-### `npm start`
+#Useful links used in building IMDB-clone
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) The MovieDB API
+https://developer.themoviedb.org/reference/intro/getting-started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2) IMDB logo 
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png
 
-### `npm test`
+3) React dev tool 
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4) React Responsive Carousel
+https://www.npmjs.com/package/react-responsive-carousel
 
-### `npm run build`
+5) React Responsive Skeleton
+https://www.npmjs.com/package/react-loading-skeleton
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6) FontAwesome CDN for using Symbols like star
+https://fontawesome.com/v5/docs/web/use-with/wordpress/install-manually#setup-webfont-with-cdn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7) Top_rated page API
+https://api.themoviedb.org/3/movie/top_rated?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8) Upcoming page API
+https://api.themoviedb.org/3/movie/top_rated?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US
 
-### `npm run eject`
+9) Popular page API
+https://api.themoviedb.org/3/movie/popular?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+        
+   
